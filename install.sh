@@ -7,7 +7,7 @@ distro=$(if echo " bullseye focal impish jammy uma una " | grep -q " $(lsb_relea
 
 wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
 
-sudo tee /etc/apt-get/sources.list.d/librewolf.sources << EOF > /dev/null
+sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
 Types: deb
 URIs: https://deb.librewolf.net
 Suites: $distro
@@ -41,7 +41,7 @@ sudo apt-get install keepassxc -y
 ###########
 #Cuda Text#
 ###########
-echo 'deb [trusted=yes] https://apt-get.fury.io/cudatext/ /' | sudo tee -a /etc/apt-get/sources.list.d/cudatext.list
+echo 'deb [trusted=yes] https://apt.fury.io/cudatext/ /' | sudo tee -a /etc/apt/sources.list.d/cudatext.list
 
 sudo apt-get update
 
@@ -53,7 +53,7 @@ sudo apt-get install cudatext -y
 #############
 #Tor Browser#
 #############
-sudo add-apt-get-repository universe && sudo apt-get update
+sudo add-apt-repository universe && sudo apt-get update
 sudo apt-get install torbrowser-launcher -y
 #############
 #Tor Browser# End
@@ -64,7 +64,7 @@ sudo apt-get install torbrowser-launcher -y
 ######
 #sudo dpkg --add-architecture i386 
 #sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
-#sudo wget -NP /etc/apt-get/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+#sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
 #sudo apt-get install wine -y
 ######
 #Wine# End
@@ -85,7 +85,7 @@ sudo apt update && sudo apt install codium codium-insiders -y
 #Vs Codium# End
 ###########
 
-##########
+##########v
 #Neofetch#
 ##########
 sudo apt-get install neofetch -y
