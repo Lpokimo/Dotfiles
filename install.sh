@@ -33,7 +33,7 @@ sudo apt-get install terminator
 ###########
 #KeepassXC#
 ###########
-sudo snap install keepassxc
+sudo apt install keepassxc
 ###########
 #KeepassXC# End
 ###########
@@ -65,6 +65,7 @@ sudo apt install torbrowser-launcher
 sudo dpkg --add-architecture i386 
 sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+sudo apt install wine
 ######
 #Wine# End
 ######
@@ -86,3 +87,11 @@ sudo apt install neofetch
 ##########
 #Neofetch# End
 ##########
+
+#####
+#Vim#
+#####
+sudo apt install vim
+#####
+#Vim# End
+#####
