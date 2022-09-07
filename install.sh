@@ -45,7 +45,7 @@ echo 'deb [trusted=yes] https://apt.fury.io/cudatext/ /' | sudo tee -a /etc/apt/
 
 sudo apt update
 
-sudo apt install cudatext
+sudo apt install cudatext -y
 ###########
 #Cuda Text# End
 ###########
@@ -81,7 +81,7 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
    | sudo tee /etc/apt/sources.list.d/vscodium.list
 
     sudo apt update 
-    sudo apt-get install codium 
+    sudo apt-get install codium -y
 
 ###########
 #Vs Codium# End
@@ -106,7 +106,7 @@ sudo apt-get install vim -y
 ######
 #Htop#
 ######
-sudo apt-get install htop
+sudo apt-get install htop -y
 ######
 #Htop# End
 ###### 
