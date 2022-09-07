@@ -25,7 +25,7 @@ sudo apt-get install librewolf -y
 ############
 #Terminator#
 ############
-sudo apt-get-get install terminator -y
+sudo apt-get install terminator -y
 ############
 #Terminator# End
 ############
@@ -43,9 +43,9 @@ sudo apt-get install keepassxc -y
 ###########
 echo 'deb [trusted=yes] https://apt.fury.io/cudatext/ /' | sudo tee -a /etc/apt/sources.list.d/cudatext.list
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install cudatext -y
+sudo apt install cudatext
 ###########
 #Cuda Text# End
 ###########
