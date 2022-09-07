@@ -111,4 +111,5 @@ sudo apt-get install htop -y
 #Htop# End
 ###### 
 
+clear 
 echo "You Have Successfully Installed My Suite Of Apps"
