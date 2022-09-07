@@ -80,7 +80,8 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
    | sudo tee /etc/apt/sources.list.d/vscodium.list
 
-    sudo apt update && sudo apt-get install codium 
+    sudo apt update 
+    sudo apt-get install codium 
 
 ###########
 #Vs Codium# End
@@ -102,4 +103,10 @@ sudo apt-get install vim -y
 #Vim# End
 #####
 
-#Github Cli Doesnt Work Very Welll
+######
+#Htop#
+######
+sudo apt-get install htop
+######
+#Htop# End
+###### 
