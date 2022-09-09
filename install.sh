@@ -111,5 +111,8 @@ sudo apt-get install htop -y
 #Htop# End
 ###### 
 
+ mv ./.vimrc  ~/
+ mv ./.zshrc  ~/
+ rm ./.gitconfig 
 clear 
 echo "You Have Successfully Installed My Suite Of Apps"
