@@ -96,6 +96,15 @@ sudo apt-get install neofetch -y
 ##########
 
 #####
+#OMZ#
+#####
+sudo apt install curl wget git
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+#####
+#OMZ#
+#####
+#####
 #Vim#
 #####
 sudo apt-get install vim -y 
