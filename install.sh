@@ -1,5 +1,4 @@
 #!/bin/bash
-
 ###########
 #Librewolf#
 ###########
@@ -18,6 +17,7 @@ EOF
 
 sudo apt-get update
 sudo apt-get install librewolf -y
+mv ./.librewolf  ~/ 
 ###########
 #Librewolf# End
 ###########
@@ -96,15 +96,6 @@ sudo apt-get install neofetch -y
 ##########
 
 #####
-#OMZ#
-#####
-sudo apt install curl wget git
-sudo apt install zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
-#####
-#OMZ#
-#####
-#####
 #Vim#
 #####
 sudo apt-get install vim -y 
@@ -121,7 +112,16 @@ sudo apt-get install htop -y
 ###### 
 
  mv ./.vimrc  ~/
- mv ./.zshrc  ~/
  rm ./.gitconfig 
 clear 
 echo "You Have Successfully Installed My Suite Of Apps"
+
+#####
+#OMZ#
+#####
+sudo apt-get install curl wget git -y
+sudo apt-get install zsh -y
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)l" 
+#####
+#OMZ# End
+#####
