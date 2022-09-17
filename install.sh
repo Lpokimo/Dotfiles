@@ -59,6 +59,14 @@ sudo apt-get install torbrowser-launcher -y
 #Tor Browser# End
 #############
 
+###########
+#Kleopatra#
+###########
+sudo apt-get update
+sudo apt-get install kleopatra -y
+###########
+#Kleopatra# End
+###########
 ######
 #Wine#
 ######
@@ -96,11 +104,11 @@ sudo apt-get install neofetch -y
 ##########
 
 #####
-#Vim#
+#Neovim#
 #####
-sudo apt-get install vim -y 
+sudo apt-get install neovim -y 
 #####
-#Vim# End
+#Neovim# End
 #####
 
 ######
@@ -116,12 +124,3 @@ sudo apt-get install htop -y
 clear 
 echo "You Have Successfully Installed My Suite Of Apps"
 
-#####
-#OMZ#
-#####
-sudo apt-get install curl wget git -y
-sudo apt-get install zsh -y
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)l" 
-#####
-#OMZ# End
-#####
