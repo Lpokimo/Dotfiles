@@ -17,7 +17,6 @@ EOF
 
 sudo apt-get update
 sudo apt-get install librewolf -y
-mv ./.librewolf  ~/ 
 ###########
 #Librewolf# End
 ###########
@@ -107,6 +106,8 @@ sudo apt-get install neofetch -y
 #Neovim#
 #####
 sudo apt-get install neovim -y 
+mkdir ~/.config/nvim
+mv init.vim   ~/.config/nvim
 #####
 #Neovim# End
 #####

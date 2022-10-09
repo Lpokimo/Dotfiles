@@ -70,7 +70,10 @@ ZSH_THEME="af-magic"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+	zsh-autosuggestions
+	git
+	)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,3 +103,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias update="sudo apt update && sudo apt upgrade -y"
+  alias remove="sudo apt remove "
+  alias install="sudo apt install"
