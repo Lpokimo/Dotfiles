@@ -1,4 +1,9 @@
 #!/bin/bash
+purple='\033[0;35m'
+
+
+
+
 ###########
 #Librewolf#
 ###########
@@ -123,5 +128,4 @@ sudo apt-get install htop -y
  mv ./.vimrc  ~/
  rm ./.gitconfig 
 clear 
-echo "You Have Successfully Installed My Suite Of Apps"
-
+echo "${purple}You Have Successfully Installed My Suite Of Apps"
