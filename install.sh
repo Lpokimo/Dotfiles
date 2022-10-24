@@ -26,6 +26,7 @@ sudo apt-get install librewolf -y
 #Terminator#
 ############
 sudo apt-get install terminator -y
+mv config ~/.config/terminator/
 ############
 #Terminator# End
 ############
@@ -120,6 +121,11 @@ sudo apt-get install htop -y
 ######
 #Htop# End
 ###### 
+
+#####
+#DNS#
+#####
+
 
  mv ./.vimrc  ~/
  rm ./.gitconfig 
