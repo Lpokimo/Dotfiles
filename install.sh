@@ -1,9 +1,5 @@
 #!/bin/bash
 purple='\033[0;35m'
-
-
-
-
 ###########
 #Librewolf#
 ###########
@@ -74,10 +70,10 @@ sudo apt-get install kleopatra -y
 ######
 #Wine#
 ######
-#sudo dpkg --add-architecture i386 
-#sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
-#sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
-#sudo apt-get install wine -y
+sudo dpkg --add-architecture i386 
+sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+sudo apt-get install wine -y
 ######
 #Wine# End
 ######
