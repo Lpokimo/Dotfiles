@@ -105,3 +105,4 @@ source $ZSH/oh-my-zsh.sh
   alias update="sudo apt update && sudo apt upgrade -y"
   alias remove="sudo apt remove "
   alias install="sudo apt install"
+  alias vim="nvim"

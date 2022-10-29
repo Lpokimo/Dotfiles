@@ -42,11 +42,11 @@ sudo apt-get install keepassxc -y
 ###########
 #Cuda Text#
 ###########
-echo 'deb [trusted=yes] https://apt.fury.io/cudatext/ /' | sudo tee -a /etc/apt/sources.list.d/cudatext.list
+#echo 'deb [trusted=yes] https://apt.fury.io/cudatext/ /' | sudo tee -a /etc/apt/sources.list.d/cudatext.list
 
-sudo apt update
+#sudo apt update
 
-sudo apt install cudatext -y
+#sudo apt install cudatext -y
 ###########
 #Cuda Text# End
 ###########
@@ -71,10 +71,10 @@ sudo apt-get install kleopatra -y
 ######
 #Wine#
 ######
-sudo dpkg --add-architecture i386 
-sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
-sudo apt-get install wine -y
+#sudo dpkg --add-architecture i386 
+#sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+#sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+#sudo apt-get install wine -y
 ######
 #Wine# End
 ######
@@ -122,12 +122,28 @@ sudo apt-get install htop -y
 #Htop# End
 ###### 
 
-#####
-#DNS#
-#####
+#######
+#Fonts#
+#######
+wget https://github.com/google/fonts/raw/main/ofl/inconsolata/static/Inconsolata-Black.ttf
+mv Inconsolata-Black.ttf ~/.fonts
+#######
+#Fonts# End
+#######
+
+####
+#i3#
+####
+sudo apt-get install i3-gaps -y
+####
+#i3# End
+####
+
 
 
  mv ./.vimrc  ~/
  rm ./.gitconfig 
-clear 
+clear
+
+echo "${purple} Dont Forget To Switch Terminators Fonts And Set Width To 12"
 echo "${purple}You Have Successfully Installed My Suite Of Apps"
